@@ -2,9 +2,11 @@ import type { AppProps } from 'next/app';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <div id="app">
       <Component {...pageProps} />
       <style jsx global>{`
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Work+Sans:wght@100&display=swap');
+
         html,
         body {
           padding: 0;
@@ -23,7 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           box-sizing: border-box;
         }
       `}</style>
-    </>
+    </div>
   );
 }
 
