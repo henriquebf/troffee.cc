@@ -3,14 +3,14 @@ import sizes from '@/config/sizes.json';
 import zIndexes from '@/config/zIndexes.json';
 import Container from '@/components/shared/Container';
 
-const Placeholder: NextPage = () => {
+const Intro: NextPage = () => {
   return (
-    <section id="placeholder">
+    <section id="intro">
       <Container>
         <div className="logo">Troffee</div>
       </Container>
       <style jsx>{`
-        #placeholder {
+        #intro {
           display: flex;
           align-items: center;
           position: relative;
@@ -36,4 +36,4 @@ const Placeholder: NextPage = () => {
   );
 };
 
-export default Placeholder;
+export default Intro;
