@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Header from '@/components/sections/Header';
 import Footer from '@/components/sections/Footer';
-import Placeholder from '@/components/sections/Placeholder';
+import Intro from '@/components/sections/Intro';
 
 const Home: NextPage = () => {
   return (
@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <Header />
 
       <main className="main">
-        <Placeholder />
+        <Intro />
       </main>
 
       <Footer />
